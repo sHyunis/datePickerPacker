@@ -1,0 +1,32 @@
+{
+  "name": "datePickerPacker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:datepicker": "pnpm --filter datePickerPacker dev",
+    "build:datepicker": "pnpm --filter datePickerPacker build",
+    "clean:datepicker": "pnpm --filter datePickerPacker clean",
+    "dev:demo": "pnpm --filter demo dev",
+    "build:demo": "pnpm --filter demo build",
+    "clean:demo": "pnpm --filter demo clean",
+    "dev": "pnpm -r run dev",
+    "build": "pnpm -r run build",
+    "clean": "pnpm -r run clean"
+  },
+  "keywords": [],
+  "author": "JUNGSOHYUN",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "turbo": "^2.5.5",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tsup": "^8.5.0"
+  }
+}
